@@ -1,0 +1,68 @@
+.category {
+  padding: 4rem 4rem;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.flexContainer h3 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: .3em;
+  font-size: 35px;
+  text-shadow: 3px 0px 5px black;
+}
+
+.category h4 {
+  font-size: 25px;
+  color: #215732;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.plant, .animal {
+  width: 580px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.plant img, .animal img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width:800px) {
+  .category {
+    padding: 2rem;
+  }
+
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .plant, .animal {
+    margin-top: 2rem;
+  }
+
+  .plant img, .animal img {
+    width: 70%;
+  }
+
+  .flexContainer h3 {
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -30%);
+  }
+}

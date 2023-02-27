@@ -1,0 +1,22 @@
+.animalCards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 3rem;
+  padding: 2rem 3rem;
+}
+
+.card {
+  width: 400px;
+  height: 250px;
+  position: relative;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card h5 {
+  text-decoration: none;
+  color: #8C4F2B;
+  letter-spacing: .08em;
+  font-size: 18px;
+}

@@ -1,0 +1,74 @@
+.footer {
+    text-align: center;
+    padding: 3rem 6rem 4rem;
+    background-color: var(--lightGreen);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top h2 {
+    color: var(--darkGreen);
+}
+
+.top span {
+    font-family: "ZCOOL KuaiLe";
+    color: white;
+    font-size: 1em;
+}
+
+.top i {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.bottom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom h4 {
+    font-size: 1.2rem;
+    padding: 1rem 0 .8rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+
+    .footer i {
+        margin: 1rem 1rem 0 0;
+    }
+
+    .bottom div {
+        width: 50%;
+    }
+}
