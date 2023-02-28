@@ -1,4 +1,4 @@
-.animalCards {
+.wildlifeCards {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-column-gap: 3rem;
@@ -19,4 +19,77 @@
   color: #8C4F2B;
   letter-spacing: .08em;
   font-size: 18px;
+}
+
+.card h5:hover {
+  cursor: pointer;
+}
+
+.searchWildlife {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1px;
+  padding: 3rem 8rem 0;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.searchText {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--darkGreen);
+  font-size: 25px;
+}
+
+#category, #conservation-status {
+  width: 45%;
+  height: 50px;
+  border-color: #000;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-indent: 10px;
+  color: var(--darkGreen);
+}
+
+#category:hover, #conservation-status:hover {
+  background-color: var(--lightGreen);
+}
+
+@media screen and (max-width:800px) {
+  .wildlifeCards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchWildlife {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search {
+    flex-direction: column;
+  }
+
+  .searchText {
+    margin-bottom: 2rem;
+  }
+
+  #category {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  #conservation-status {
+    width: 100%;
+  }
 }

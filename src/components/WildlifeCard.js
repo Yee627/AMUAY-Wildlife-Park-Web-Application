@@ -4,7 +4,7 @@ import '../components/WildlifeCard.css';
 
 function Card(props) {
   return (
-    <div className="wildlifeCard">
+    <div>
       <Link to={props.url}>
         <div className="card">
           <img src={props.AnimalImg} alt="WildlifeImg" />
