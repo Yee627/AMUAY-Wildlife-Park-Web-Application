@@ -65,6 +65,7 @@ function Plants() {
         {filteredResults.map(Card)}
       </div>
       <Footer />
+
     </div>
   );
 }

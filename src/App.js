@@ -11,12 +11,12 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/wildlife" exact element={<Wildlife />} />
-        <Route path="/wildlife/plants" exact element={<Plants />} />
-        <Route path="/wildlife/animals" exact element={<Animals />} />
-        <Route path="/planyourvisit" exact element={<Planyourvisit />} />
-        <Route path="/Information" exact element={<Information />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/wildlife" element={<Wildlife />} />
+        <Route path="/wildlife/plants" element={<Plants />} />
+        <Route path="/wildlife/animals" element={<Animals />} />
+        <Route path="/planyourvisit" element={<Planyourvisit />} />
+        <Route path="/Information" element={<Information />} />
       </Routes>
     </div>
   );

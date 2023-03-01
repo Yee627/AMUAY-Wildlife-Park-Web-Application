@@ -1,0 +1,118 @@
+.mapInfo, .timeInfo {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.timeInfo {
+  padding-top: 0;
+}
+
+.locationMap i, .parkMap i, .leftInfo i, .rightInfo i {
+  padding-top: 10px;
+  letter-spacing: .1em;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.locationMap p, .parkMap p, .leftInfo p, .rightInfo p, .query p {
+  padding-left: 1rem;
+}
+
+.parkMap img {
+  width: 650px;
+  height: 450px;
+}
+
+.visitTime, .feedingTime {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid var(--darkGreen);
+  width: 100%;
+  height: 80%;
+  margin-top: 10px;
+}
+
+.query {
+  padding: 1rem 3rem;
+  text-align: center;
+  align-items: center;
+}
+
+.query i {
+  padding-top: 10px;
+  letter-spacing: .1em;
+  padding-bottom: 2rem;
+  display: flex;
+  font-size: 23px;
+}
+
+.queryForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.query #name, #emailaddress, #phone, #theme, #message {
+  width: 100%;
+  padding: .5em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+}
+
+.sendMessage {
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: none;
+  padding: .8em 2rem;
+  margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width:800px) {
+  .mapInfo, .timeInfo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .locationMap, .parkMap {
+    width: 100%;
+  }
+
+  .locationMap iframe {
+    width: 400px;
+    height: 300px;
+  }
+
+  .parkMap img {
+    width: 100%;
+  }
+
+  .parkMap {
+    padding-top: 2rem;
+  }
+
+  .leftInfo {
+    width: 100%;
+  }
+
+  .rightInfo {
+    padding-top: 3rem;
+    width: 100%;
+  }
+
+  .queryForm {
+    display: flex;
+    flex-direction: column;
+  }
+}
