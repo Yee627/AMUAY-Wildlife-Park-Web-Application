@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from '../components/Footer';
 import Newsletter from '../components/Newsletter';
 import '../components/Information.css';
+import QueryForm from '../components/QueryForm';
 
 function Information() {
+
+  const [queries, setQueries] = useState([]);
+
+  function addQuery(newQuery) {
+    setQueries(preQueries => {
+      return [...preQueries, newQuery];
+    });
+  }
+
   return (
     <div>
       <Navbar />
@@ -50,22 +60,7 @@ function Information() {
           </div>
         </div>
       </div>
-      <section class="query">
-        <i class="fa-solid fa-envelope"><p>Get In Touch</p></i>
-
-        <form action="">
-          <div class="queryForm">
-            <input type="text" id="name" name="name" placeholder="Name" />
-            <input type="text" id="emailaddress" name="email" placeholder="Email" />
-            <input type="text" id="phone" name="phone" placeholder="Phone" />
-            <input type="text" id="theme" name="theme" placeholder="Query Theme" />
-          </div>
-          <div class="query-form-message">
-            <textarea name="message" id="message" rows="10" cols="60" placeholder="Message(0 of 1000 max characters)"></textarea>
-            <input type="submit" class="sendMessage" value="Submit" />
-          </div>
-        </form>
-      </section>
+      <QueryForm onAdd={addQuery} />
       <Newsletter />
       <Footer />
     </div>
