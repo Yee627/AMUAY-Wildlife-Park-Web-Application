@@ -58,7 +58,7 @@
   column-gap: 2rem;
 }
 
-.query #name, .query #email, .query #phone, .query #theme, .query #message {
+.query #firstName, #lastName, .query #email, .query #theme, .query #message {
   width: 100%;
   padding: .5em;
   margin-bottom: 1em;

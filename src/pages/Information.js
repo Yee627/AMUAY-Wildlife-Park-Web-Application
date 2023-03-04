@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from '../components/Footer';
@@ -7,14 +7,6 @@ import '../components/Information.css';
 import QueryForm from '../components/QueryForm';
 
 function Information() {
-
-  const [queries, setQueries] = useState([]);
-
-  function addQuery(newQuery) {
-    setQueries(preQueries => {
-      return [...preQueries, newQuery];
-    });
-  }
 
   return (
     <div>
@@ -32,7 +24,7 @@ function Information() {
         </div>
         <div className="parkMap">
           <i class="fa-solid fa-map-location-dot"><p>Tour Map In Park</p></i>
-          <img src="./images/tour map.png" alt="tour map"></img>
+          <img src="./images/tour map.png" alt="tour map" />
         </div>
       </div>
       <div className="timeInfo">
@@ -60,7 +52,7 @@ function Information() {
           </div>
         </div>
       </div>
-      <QueryForm onAdd={addQuery} />
+      <QueryForm />
       <Newsletter />
       <Footer />
     </div>

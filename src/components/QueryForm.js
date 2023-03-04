@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import '../components/Information.css';
+import axios from 'axios';
 
-function QueryForm(props) {
+function QueryForm() {
   const [query, setQuery] = useState({
-    name: "",
+    firstName: "",
+    lastName: "",
     email: "",
-    phone: "",
     theme: "",
     message: ""
   });
@@ -22,25 +23,37 @@ function QueryForm(props) {
   }
 
   function handleSubmit(event) {
-    props.onAdd(query);
     event.preventDefault();
 
+    axios.post("http://localhost:4000/addQuery", query)
+      .then(response => {
+        console.log(response)
+        alert("Query received!")
+        setQuery({
+          firstName: "",
+          lastName: "",
+          email: "",
+          theme: "",
+          message: ""
+        })
+      })
+      .catch(err => console.log(err));
   }
 
   return (
-    <section class="query">
-      <i class="fa-solid fa-envelope"><p>Get In Touch</p></i>
+    <section className="query">
+      <i className="fa-solid fa-envelope"><p>Get In Touch</p></i>
 
       <form onSubmit={handleSubmit}>
-        <div class="queryForm">
-          <input type="text" id="name" onChange={handleChange} value={query.name} name="name" placeholder="Name" />
+        <div className="queryForm">
+          <input type="text" id="firstName" onChange={handleChange} value={query.firstName} name="firstName" placeholder="First Name" />
+          <input type="text" id="lastName" onChange={handleChange} value={query.lastName} name="lastName" placeholder="Last Name" />
           <input type="text" id="email" onChange={handleChange} value={query.email} name="email" placeholder="Email" />
-          <input type="text" id="phone" onChange={handleChange} value={query.phone} name="phone" placeholder="Phone" />
           <input type="text" id="theme" onChange={handleChange} value={query.theme} name="theme" placeholder="Query Theme" />
         </div>
-        <div class="query-form-message">
+        <div className="query-form-message">
           <textarea name="message" onChange={handleChange} value={query.message} id="message" rows="10" cols="60" placeholder="Message(0 of 1000 max characters)"></textarea>
-          <input type="submit" class="sendMessage" value="Submit" />
+          <input type="submit" class="sendMessage" value="SUBMIT" />
         </div>
       </form>
     </section>
