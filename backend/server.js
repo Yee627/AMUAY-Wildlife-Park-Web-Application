@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://admin-yee:Test123@cluster0.in9qv.mongodb.net/wildlifeparkDB", {
+mongoose.connect("mongodb+srv://userName@cluster0.in9qv.mongodb.net/wildlifeparkDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('MongoDB Connected'))
