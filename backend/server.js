@@ -2,13 +2,16 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require("path");
+const Mailchimp = require("mailchimp-api-v3");
+require('dotenv').config({ path: "variables.env" });
 
 const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://userName@cluster0.in9qv.mongodb.net/wildlifeparkDB", {
+mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('MongoDB Connected'))
@@ -24,10 +27,6 @@ const querySchema = mongoose.Schema({
 
 const Query = mongoose.model("Query", querySchema);
 
-app.get("/", (req, res) => {
-  res.send("Express is here")
-})
-
 app.post("/addQuery", (req, res) => {
   const query = new Query({
     firstName: req.body.firstName,
@@ -37,8 +36,22 @@ app.post("/addQuery", (req, res) => {
     message: req.body.message
   });
   query.save()
-    .then(() => res.send('Query received!'))
+    .then(result => res.send(result))
     .catch(err => console.log(err));
+});
+
+
+const mc_api_key = process.env.MAILCHIMP_API_KEY;
+const list_id = process.env.LIST_ID;
+const mailchimp = new Mailchimp(mc_api_key);
+
+app.post("/subscribe", (req, res) => {
+  mailchimp.post(`/lists/${list_id}/members`, {
+    email_address: req.body.email,
+    status: 'subscribed',
+  })
+    .then(result => res.send(result))
+    .catch(err => res.send(err));
 
 });
 

@@ -7,11 +7,27 @@ function Newsletter() {
 
   function handleChange(event) {
     setEmail(event.target.value);
-    console.log(email);
   }
 
   function handleSubmit(event) {
     event.preventDefault();
+
+    if (!email) {
+      alert('Email is required');
+      return;
+    }
+
+    axios.post("http://localhost:4000/subscribe", { email })
+      .then(response => {
+        console.log(response)
+        alert("Thanks for subscribing!")
+        setEmail("")
+      })
+      .catch(err => {
+        console.log(err)
+        alert("Failed to subscribe")
+        setEmail("")
+      });
   }
 
   return (
