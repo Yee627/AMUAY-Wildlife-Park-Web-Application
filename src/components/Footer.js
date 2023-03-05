@@ -19,28 +19,28 @@ function Footer() {
       </div>
       <div className="bottom">
         <div>
-          <h4>Visit</h4>
-          <a href="/">Direction</a>
-          <a href="/">Zoo Map</a>
-          <a href="/">Guest Service</a>
+          <h4>About</h4>
+          <a href="/">History</a>
+          <a href="/">Mission</a>
+          <a href="/">Service</a>
         </div>
         <div>
           <h4>News</h4>
           <a href="/">Journal</a>
-          <a href="/">Podcast</a>
-          <a href="/">Press Room</a>
+          <a href="/">Video</a>
+          <a href="/">Blog</a>
         </div>
         <div>
-          <h4>Discover</h4>
-          <a href="/">Academy</a>
-          <a href="/">Adventures</a>
-          <a href="/">Wildlife Exploration</a>
+          <h4>Support</h4>
+          <a href="/">Contact</a>
+          <a href="/">Privacy</a>
+          <a href="/">Terms</a>
         </div>
         <div>
           <h4>Get Involved</h4>
           <a href="/">Job</a>
           <a href="/">Volunteer</a>
-          <a href="/">Sponsorship & Licensing</a>
+          <a href="/">Sponsorship</a>
         </div>
       </div>
     </div>
