@@ -10,9 +10,10 @@ function Planyourvisit() {
     <div>
       <Navbar />
       <Hero
-        cName="hero-mid"
+        cName="hero"
         heroImg="./images/visit_your_plan.jpeg"
         title="Get Ready For Your Adventure"
+        text="Surround yourself with genuine natural splendour in the west of the Venezuelan capital and meet a wide range of animals and plants."
       />
       <Experiences />
       <Footer />

@@ -7,7 +7,7 @@ function Card(props) {
     <div>
       <Link to={props.url}>
         <div className="card">
-          <img src={props.AnimalImg} alt="WildlifeImg" />
+          <img src={props.image} alt="WildlifeImg" />
           <h5>{props.name}</h5>
         </div>
       </Link>

@@ -10,10 +10,9 @@ function Home() {
     <div>
       <Navbar />
       <Hero
-        cName="hero"
+        cName="hero-mid"
         heroImg="./images/cover.jpg"
-        title="Welcome to Amuay wildlife park. "
-        text="Surround yourself with genuine natural splendour in the west of the Venezuelan capital and meet a wide range of animals and plants."
+        title="Welcome to Amuay wildlife park"
       />
       <Middle />
       <Newsletter />

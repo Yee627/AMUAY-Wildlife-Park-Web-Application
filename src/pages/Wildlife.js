@@ -9,7 +9,7 @@ function Wildlife() {
     <div>
       <Navbar />
       <Hero
-        cName="hero-mid"
+        cName="hero"
         heroImg="./images/lion-drinking-water.jpeg"
         title="Explore Our Flora And Fauna"
         text="At AMUAY, thousands of plants and animals are waiting for you to explore."
