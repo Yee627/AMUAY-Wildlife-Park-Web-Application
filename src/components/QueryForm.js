@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../components/Information.css';
+import '../pages/Information.css';
 import axios from 'axios';
 
 function QueryForm() {

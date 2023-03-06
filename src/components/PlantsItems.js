@@ -6,8 +6,13 @@ const plantsItems = [
     image: "../images/Andean Lupine Flower.jpeg",
     imgSingle: "/images/Andean Lupine Flower.jpeg",
     name: "Lupine",
+    scientificName: "Lupinus",
     category: "Flowers",
-    status: "Stable"
+    status: "Stable",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    characteristic: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    cultivation: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 2,
@@ -16,28 +21,43 @@ const plantsItems = [
     image: "../images/Araguaney Tree.jpeg",
     imgSingle: "/images/Araguaney Tree.jpeg",
     name: "Araguaney",
+    scientificName: "Tabebuia chrysantha",
     category: "Palms",
-    status: "Stable"
+    status: "Stable",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    characteristic: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    cultivation: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 3,
     id: "ginger",
     url: "/wildlife/plants/ginger",
-    image: "../images/Hero_ginger.jpg",
-    imgSingle: "/images/Hero_ginger.jpg",
+    image: "../images/Hero_ginger.jpeg",
+    imgSingle: "/images/Hero_ginger.jpeg",
     name: "Ginger",
+    scientificName: "Zingiber officinale",
     category: "Flowers",
-    status: "Some Threatened"
+    status: "Some Threatened",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    characteristic: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    cultivation: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 4,
     id: "cactus",
     url: "/wildlife/plants/cactus",
-    image: "../images/cactus.jpg",
-    imgSingle: "/images/cactus.jpg",
+    image: "../images/cactus.jpeg",
+    imgSingle: "/images/cactus.jpeg",
     name: "Cactus",
+    scientificName: "Cactaceae",
     category: "Ferns",
-    status: "Some Endangered"
+    status: "Some Endangered",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    characteristic: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    cultivation: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 5,
@@ -46,8 +66,13 @@ const plantsItems = [
     image: "../images/Orchids.jpeg",
     imgSingle: "/images/Orchids.jpeg",
     name: "Orchids",
+    scientificName: "Orchidaceae",
     category: "Flowers",
-    status: "Some Threatened"
+    status: "Some Threatened",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    characteristic: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    cultivation: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 6,
@@ -56,8 +81,13 @@ const plantsItems = [
     image: "../images/Moriche Palm Tree.jpeg",
     imgSingle: "/images/Moriche Palm Tree.jpeg",
     name: "Moriche Palm",
+    scientificName: "Mauritia flexuosa",
     category: "Palms",
-    status: "Some Threatened"
+    status: "Some Threatened",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    characteristic: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    cultivation: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   }
 ];
 

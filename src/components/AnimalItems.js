@@ -6,18 +6,28 @@ const animalItems = [
     image: "../images/sloth.jpg",
     imgSingle: "/images/sloth.jpg",
     name: "Sloth",
+    scientificName: "Folivora",
     category: "Mammals",
-    status: "Some Threatened"
+    status: "Some Threatened",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    habitat: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    familyLife: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 2,
     id: "white-bellied-spider-monkey",
     url: "/wildlife/animals/white-bellied-spider-monkey",
-    image: "../images/spider monkey.jpg",
-    imgSingle: "/images/spider monkey.jpg",
+    image: "../images/spider monkey.jpeg",
+    imgSingle: "/images/spider monkey.jpeg",
     name: "White-Bellied Spider Monkey",
+    scientificName: "Ateles belzebuth",
     category: "Mammals",
-    status: "Endangered"
+    status: "Endangered",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    habitat: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    familyLife: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 3,
@@ -26,8 +36,13 @@ const animalItems = [
     image: "../images/jaguar.jpg",
     imgSingle: "/images/jaguar.jpg",
     name: "Jaguar",
+    scientificName: "Panthera onca",
     category: "Mammals",
-    status: "Threatened"
+    status: "Threatened",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    habitat: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    familyLife: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 4,
@@ -36,8 +51,13 @@ const animalItems = [
     image: "../images/fox.jpg",
     imgSingle: "/images/fox.jpg",
     name: "Crab-Eating Fox",
+    scientificName: "Cerdocyon thous",
     category: "Mammals",
-    status: "Stable"
+    status: "Stable",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    habitat: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    familyLife: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 5,
@@ -46,8 +66,13 @@ const animalItems = [
     image: "../images/monkey.jpg",
     imgSingle: "/images/monkey.jpg",
     name: "Howler Monkey",
+    scientificName: "Alouatta",
     category: "Mammals",
-    status: "Stable"
+    status: "Stable",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    habitat: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    familyLife: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   },
   {
     key: 6,
@@ -56,8 +81,13 @@ const animalItems = [
     image: "../images/capybara.jpg",
     imgSingle: "/images/capybara.jpg",
     name: "Capybara",
+    scientificName: "Hydrochoerus hydrochaeris",
     category: "Reptiles",
-    status: "Some Threatened"
+    status: "Some Threatened",
+    introduction: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis neque nec congue lobortis. Praesent dui turpis, efficitur ut congue sit amet, finibus at risus. Sed commodo, arcu ac tempus lacinia, augue leo pharetra lacus, vel laoreet urna libero nec eros. Donec auctor, nibh et pretium congue, metus metus pretium arcu, placerat vehicula metus ipsum quis nisl.Mauris nec laoreet turpis. Curabitur sagittis consectetur ligula, id semper magna cursus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vel mauris sem. Vivamus sodales orci ut mauris molestie hendrerit. Donec at arcu at sapien interdum consectetur. Quisque egestas mattis urna ac pulvinar. ",
+    habitat: "Cras eu arcu et nulla interdum consectetur a vitae metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse lacinia mollis condimentum. Cras et commodo felis. Nullam sit amet pharetra ipsum, eu aliquam mauris. Aliquam condimentum diam sit amet luctus imperdiet. Vivamus faucibus urna neque, vitae bibendum dolor tempus vel. Suspendisse potenti. Nunc ac dui bibendum, euismod neque sit amet, facilisis turpis. Mauris mollis sapien non mauris interdum pulvinar.",
+    familyLife: "In mollis nulla diam, suscipit dapibus lectus elementum ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed venenatis porta quam sed tempus. Aliquam erat volutpat. Mauris est lorem, hendrerit quis pretium id, fringilla ut est. In ornare, elit vitae vestibulum dictum, risus sem pulvinar sapien, vitae porttitor lorem leo ac elit. Suspendisse luctus aliquet elit, eget lobortis nisi euismod vel. Nulla facilisi.",
+    conservation: "Duis nec lectus sit amet nunc fringilla tempus id ut dui. Vivamus ut odio mauris. Nam facilisis tortor non finibus euismod. Phasellus eget libero tellus. Mauris rutrum suscipit accumsan. Aliquam accumsan malesuada efficitur. Nulla sed odio nibh. Cras commodo accumsan tristique. Integer est nulla, egestas et mollis in, sodales ut leo. Donec vitae dolor eget justo dignissim fermentum nec nec lectus. Suspendisse consectetur varius ultrices. Aliquam lobortis risus non lorem vehicula feugiat."
   }
 ];
 

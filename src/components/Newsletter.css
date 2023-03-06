@@ -44,6 +44,10 @@
     position: absolute;
 }
 
+.subscribe:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width:800px) {
     #email {
         width: 60%;

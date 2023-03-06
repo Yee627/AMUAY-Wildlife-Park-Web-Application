@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from '../components/Footer';
 import Newsletter from '../components/Newsletter';
-import '../components/Information.css';
+import '../pages/Information.css';
 import QueryForm from '../components/QueryForm';
 
 function Information() {

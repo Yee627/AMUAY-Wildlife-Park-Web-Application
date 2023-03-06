@@ -1,9 +1,9 @@
-/*import React, { useState, useEffect } from 'react';*/
+import React from 'react';
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
 import Footer from '../components/Footer';
 import animalItems from '../components/AnimalItems';
+import '../pages/Single.css';
 
 function AnimalSingle() {
   const { id } = useParams();
@@ -16,11 +16,31 @@ function AnimalSingle() {
   return (
     <div>
       <Navbar />
-      <Hero
-        cName="hero-category"
-        heroImg={animal.imgSingle}
-        title={animal.name}
-      />
+      <div>
+        <div className="topSingle">
+          <img src={animal.imgSingle} alt="WildlifeImage" />
+          <div className="intro">
+            <h2>{animal.name}</h2>
+            <h4>{animal.scientificName}</h4>
+            <h3>{animal.status}</h3>
+            <p>{animal.introduction}</p>
+          </div>
+        </div>
+        <div className="middleSingle">
+          <div>
+            <i class="fa-solid fa-mountain-sun"><h2>Habitat</h2></i>
+            <p>{animal.habitat}</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"><h2>Family Life</h2></i>
+            <p>{animal.familyLife}</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-heart-circle-plus"><h2>Conservation</h2></i>
+            <p>{animal.conservation}</p>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
