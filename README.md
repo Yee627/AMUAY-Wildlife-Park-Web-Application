@@ -38,7 +38,6 @@ npm install
 ```makefile
 MAILCHIMP_API_KEY=<your-mailchimp-api>
 LIST_ID=<your-mailchimp-list-id>
-PORT=4000
 DATABASE_URL=<your-mongodb-uri>
 ```
 
