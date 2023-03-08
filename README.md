@@ -9,12 +9,6 @@ The application has four main sections:
   - Plan Your Visit Page: This page displays all the activities users can join in the zoo (not yet finished).
   - Information Page: This page provides users with directions, maps, opening hours and feeding hours. Users can also submit queries or suggestions using a form, which is stored in MongoDB Atlas database.
   
-  In addition to the above features, there are some functions that are currently under development, including:
-
-  - Deployment on AWS
-  - Adding a share feature in each single animal or plant page
-  - Adding a chatbot in animal and plant pages with ChatGPT API
-  
 ## Getting Started
 ### Prerequisites
 To run the Zoo Web Application, you will need to have the following installed on your system:
