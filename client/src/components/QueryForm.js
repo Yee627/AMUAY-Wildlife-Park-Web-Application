@@ -25,7 +25,7 @@ function QueryForm() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    axios.post("/addQuery", query)
+    axios.post("http://localhost:4000//addQuery", query)
       .then(response => {
         console.log(response)
         alert("Query received!")
