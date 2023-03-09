@@ -17,7 +17,7 @@ function Newsletter() {
       return;
     }
 
-    axios.post("http://localhost:4000/subscribe", { email })
+    axios.post("http://localhost:8080/subscribe", { email })
       .then(response => {
         console.log(response)
         alert("Thanks for subscribing!")

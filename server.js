@@ -27,6 +27,10 @@ const querySchema = mongoose.Schema({
 
 const Query = mongoose.model("Query", querySchema);
 
+app.get('/', (req, res) => {
+  res.send('Welcome to AMUAY Wildlife Park!');
+});
+
 app.post("/addQuery", (req, res) => {
   const query = new Query({
     firstName: req.body.firstName,
