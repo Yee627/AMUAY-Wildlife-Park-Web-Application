@@ -17,7 +17,7 @@ function Newsletter() {
       return;
     }
 
-    axios.post("http://localhost:4000/subscribe", { email })
+    axios.post("Amuaywildlifepark-env-1.eba-fqrw9p2y.us-east-1.elasticbeanstalk.com	code-pipeline-1678316609554-8095dbbf0459b644cf6f4d759c50813fb631278f/subscribe", { email })
       .then(response => {
         console.log(response)
         alert("Thanks for subscribing!")
