@@ -25,12 +25,12 @@ git clone https://github.com/Yee627/AMUAY-Wildlife-Park-Web-Application
 
 2. Install dependencies for the frontend and backend:
 ```bash
-cd AMUAY-Wildlife-Park-Web-Application-master
+cd AMUAY-Wildlife-Park-Web-Application-master/client
 npm install
 ```
 
 ```bash
-cd AMUAY-Wildlife-Park-Web-Application-master/backend
+cd AMUAY-Wildlife-Park-Web-Application-master/
 npm install
 ```
 
