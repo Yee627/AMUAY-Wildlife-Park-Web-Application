@@ -10,6 +10,7 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static("client/public"));
 
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
@@ -27,8 +28,8 @@ const querySchema = mongoose.Schema({
 
 const Query = mongoose.model("Query", querySchema);
 
-app.get('/', (req, res) => {
-  res.send('Welcome to AMUAY Wildlife Park!');
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "client", "public", "index.html"))
 });
 
 app.post("/addQuery", (req, res) => {
