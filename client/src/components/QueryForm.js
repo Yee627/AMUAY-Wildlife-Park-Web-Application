@@ -25,7 +25,7 @@ function QueryForm() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    axios.post("http://amuaywillifeparkapp-env.eba-tjk4eswt.us-east-1.elasticbeanstalk.com/addQuery", query)
+    axios.post("http://localhost:8080/addQuery", query)
       .then(response => {
         console.log(response)
         alert("Query received!")
