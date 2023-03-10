@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static("client/public"));
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 mongoose.connect(process.env.DATABASE_URL, {
   useNewUrlParser: true,
@@ -29,7 +29,7 @@ const querySchema = mongoose.Schema({
 const Query = mongoose.model("Query", querySchema);
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "public", "index.html"))
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"))
 });
 
 app.post("/addQuery", (req, res) => {
