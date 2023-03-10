@@ -29,7 +29,7 @@ const querySchema = mongoose.Schema({
 const Query = mongoose.model("Query", querySchema);
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client", "public", "index.html"))
+  res.sendFile(path.join(__dirname, "client", "public", "index.html"))
 });
 
 app.post("/addQuery", (req, res) => {
