@@ -1,4 +1,6 @@
 # AMUAY Wildlife Park Web Application
+http://amuaywillifeparkapp-env-1.eba-tjk4eswt.us-east-1.elasticbeanstalk.com/information
+
 ## Introduction
 The Zoo Web Application is a project based on a previous group web assignment(link here: https://github.com/is-Goten/Web_assignment) that required the use of only HTML and CSS to build web pages. After learning React, Node.js, Express, and MongoDB, I decided to upgrade and transform the previous project by incorporating these technologies. Now this is a MERN stack web application that allows users to view information about the animals and plants in a zoo, plan their visit, and submit queries or suggestions. The application uses React.js for the frontend, Express and Node.js for the backend, and MongoDB Atlas for the database.
 
