@@ -1,0 +1,47 @@
+.container {
+  margin: 30px 50px 50px;
+}
+
+.safari {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+  padding: 3rem 4rem;
+}
+
+.safari img {
+  width: 100%;
+}
+
+.description {
+  text-align: left;
+}
+
+.description h4 {
+  padding-top: 2rem;
+}
+
+.description p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: justify;
+}
+
+.description h5 {
+  padding-bottom: 0.3rem;
+  color: brown;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width:800px) {
+  .safari {
+    display: block;
+    padding: 5% 5%;
+  }
+
+  .description h2 {
+    padding-top: 2rem;
+  }
+}

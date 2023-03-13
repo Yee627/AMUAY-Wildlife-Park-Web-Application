@@ -3,9 +3,9 @@ const visitItems = [
     id: 1,
     className: "visitSection",
     middleImg: "./images/deer_in_plan_visit.jpg",
-    title: "Driver Through",
+    title: "Drive Through",
     text: "Sitting in the park vehicles to get up close to elusive animals safely and gain a wonderful experience.",
-    url: "/planyourvisit"
+    url: "/planyourvisit/drivethrough"
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const visitItems = [
     middleImg: "./images/woods.jpg",
     title: "Walking Tour",
     text: "Following the recommended route, stroll and stop along the way to see and get up-close with plants and animals.",
-    url: "/planyourvisit"
+    url: "/planyourvisit/walkingtour"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const visitItems = [
     middleImg: "./images/child_feeding_deer.jpg",
     title: "Animal Feeding",
     text: "Feed animals at Amuay Feeding Area, a place specifically for you to feed our animals from extremely tall giraffes to tiny parrots.",
-    url: "/planyourvisit"
+    url: "/planyourvisit/animalfeeding"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const visitItems = [
     middleImg: "./images/deer_in_jungle.jpg",
     title: "Animal Encounters",
     text: "Get up close during animal encounters with manatees, Amazon river dolphins and giant anteaters at Amuay wildlife park.",
-    url: "/planyourvisit"
+    url: "/planyourvisit/animalencounter"
   }
 ];
 

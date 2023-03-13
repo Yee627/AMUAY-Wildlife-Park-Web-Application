@@ -28,7 +28,7 @@
     margin: 3rem auto 3rem auto;
 }
 
-.middle-link {
+.visitSection :link {
     padding: 1rem 3rem;
     background-color: orange;
     font-size: 18px;
@@ -36,10 +36,13 @@
     border-radius: 12px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.visitSection .newlink {
     color: white;
 }
 
-.middle-link:hover {
+.visitSection .middle-link:hover {
     background-color: darkGreen;
 }
 

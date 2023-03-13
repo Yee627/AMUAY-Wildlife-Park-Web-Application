@@ -5,11 +5,9 @@ import createSections from "../components/Sections";
 
 function Experiences() {
   return (
-    <>
-      <div className="visitContainer">
-        {visitItems.map(createSections)}
-      </div>
-    </>
+    <div className="visitContainer">
+      {visitItems.map(createSections)}
+    </div>
   );
 }
 

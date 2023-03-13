@@ -7,7 +7,7 @@ function createSections(props) {
       <img src={props.middleImg} alt="MiddleImg" />
       <h3>{props.title}</h3>
       <h4>{props.text}</h4>
-      <Link to={props.url} className="middle-link">Learn More</Link>
+      <Link to={props.url} className="newlink">Learn More</Link>
     </section>
   )
 }

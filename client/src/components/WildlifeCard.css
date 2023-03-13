@@ -14,6 +14,10 @@
   margin-bottom: 3rem;
 }
 
+:link {
+  text-decoration: none;
+}
+
 .card h5 {
   text-decoration: none;
   color: #8C4F2B;
@@ -23,6 +27,7 @@
 
 .card h5:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .searchWildlife {

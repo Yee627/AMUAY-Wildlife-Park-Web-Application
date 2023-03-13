@@ -1,0 +1,56 @@
+.feedingContainer {
+  padding: 2rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  justify-content: space-between;
+  background-color: #F2F2E9;
+}
+
+.feeding {
+  padding: 1rem 1rem 1rem;
+  background-color: white;
+}
+
+.feeding img {
+  object-fit: cover;
+  width: 400px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.feeding h3 {
+  padding-top: 1rem;
+  color: rgb(3, 102, 3);
+  font-size: 27px;
+}
+
+.feeding h4 {
+  font-weight: 300;
+  padding: 1rem 1rem 1rem 0;
+  color: var(--darkGreen);
+}
+
+.feeding :link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.feeding .newlink {
+  color: rgb(3, 102, 3);
+}
+
+.feeding .newlink:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+  .feedingContainer {
+    display: block;
+  }
+
+  .feeding {
+    margin-top: 2rem;
+  }
+}

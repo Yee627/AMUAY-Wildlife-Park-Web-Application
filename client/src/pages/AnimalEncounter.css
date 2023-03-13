@@ -1,0 +1,54 @@
+.encounterContainer {
+  padding: 2rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  justify-content: space-between;
+  background-color: #F2F2E9;
+}
+
+.encounter {
+  padding: 1rem 1rem 1rem;
+  background-color: white;
+}
+
+.encounter h3 {
+  padding-top: 1rem;
+  color: rgb(3, 102, 3);
+  font-size: 27px;
+}
+
+.encounter h4 {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.encounter img {
+  object-fit: cover;
+  width: 400px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.encounter :link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.encounter .newlink {
+  color: rgb(241, 164, 21);
+}
+
+.encounter .newlink:hover {
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width:600px) {
+  .encounterContainer {
+    display: block;
+  }
+
+  .encounter {
+    margin-top: 2rem;
+  }
+}
