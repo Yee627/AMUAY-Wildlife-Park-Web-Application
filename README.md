@@ -8,7 +8,7 @@ The Zoo Web Application is a project based on a previous group web assignment(li
 The application has four main sections:
   - Home Page: This page displays recent activities in the zoo and allows users to subscribe to newsletters using the MailChimp API.
   - Wildlife Page: This page allows users to view information about plants and animals in the zoo. Users can filter plants or animals by category and conservation status, and click on a plant or animal to view detailed information about it.
-  - Plan Your Visit Page: This page displays all the activities users can join in the zoo (not yet finished).
+  - Plan Your Visit Page: This page displays all the activities users can join in the zoo.
   - Information Page: This page provides users with directions, maps, opening hours and feeding hours. Users can also submit queries or suggestions using a form, which is stored in MongoDB Atlas database.
   
 ## Getting Started
