@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
@@ -6,6 +6,12 @@ import plantsItems from '../components/PlantsItems';
 import '../pages/Single.css';
 
 function PlantSingle() {
+
+  /* In order to jump on the top instantly when opening this page */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   const { id } = useParams();
   const plant = plantsItems.find((plant) => plant.id === id);
 

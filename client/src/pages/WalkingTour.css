@@ -37,7 +37,7 @@
 .walkTour a h4 {
   text-align: center;
   padding-top: 1rem;
-  color: rgb(3, 102, 3);
+  color: darkgreen;
   font-size: 23px;
 }
 
@@ -49,7 +49,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
   .walkTour {
     display: block;
     padding: 5% 5%;

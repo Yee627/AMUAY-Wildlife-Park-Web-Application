@@ -20,7 +20,6 @@ function Category() {
           </div>
         </Link>
       </div>
-
     </div>
   );
 }

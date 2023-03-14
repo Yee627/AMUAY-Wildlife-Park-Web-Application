@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
@@ -6,6 +6,12 @@ import animalItems from '../components/AnimalItems';
 import '../pages/Single.css';
 
 function AnimalSingle() {
+
+  /* In order to jump on the top instantly when opening this page */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   const { id } = useParams();
   const animal = animalItems.find((animal) => animal.id === id);
 

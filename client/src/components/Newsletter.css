@@ -1,55 +1,55 @@
 .newsletter {
-    background-color: #F2F2E9;
-    margin-top: 0;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 6rem 0 7rem;
+  background-color: #F2F2E9;
+  margin-top: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 6rem 0 7rem;
 }
 
 .newsletter h2 {
-    font-size: 25px;
-    font-weight: 800;
-    color: #6CB33F;
+  font-size: 25px;
+  font-weight: 800;
+  color: darkGreen;
 }
 
 .eyebrow {
-    font-size: 40px;
-    font-weight: 600;
-    color: #524F4E;
-    text-align: center;
-    margin: 20px auto 40px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #524F4E;
+  text-align: center;
+  margin: 20px auto 40px;
 }
 
 #email {
-    border: 1px #F2F2E9 solid;
-    border-radius: 0;
-    padding-left: 10px;
-    font-size: 16px;
-    color: #524F4E;
-    height: 50px;
-    width: 35%;
+  border: 1px #F2F2E9 solid;
+  border-radius: 0;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #524F4E;
+  height: 50px;
+  width: 35%;
 }
 
 .subscribe {
-    height: 50px;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: #6CB33F;
-    border: 1px solid #6CB33F;
-    border-radius: 1;
-    padding: 0 20px;
-    margin-left: -100px;
-    position: absolute;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: darkGreen;
+  border: 1px solid darkGreen;
+  border-radius: 1;
+  padding: 0 20px;
+  margin-left: -100px;
+  position: absolute;
 }
 
 .subscribe:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-@media screen and (max-width:800px) {
-    #email {
-        width: 60%;
-    }
+@media screen and (max-width:600px) {
+  #email {
+    width: 60%;
+  }
 }

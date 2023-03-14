@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
@@ -6,6 +6,12 @@ import Hero from '../components/Hero';
 import './WalkingTour.css';
 
 function WalkingTour() {
+
+  /* In order to jump on the top instantly when opening this page */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div>
       <Navbar />

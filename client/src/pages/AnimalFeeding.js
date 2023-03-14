@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -7,6 +7,12 @@ import './AnimalFeeding.css'
 import feedingItems from '../components/feedingItems';
 
 function AnimalFeeding() {
+
+  /* In order to jump on the top instantly when opening this page */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div>
       <Navbar />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
@@ -9,38 +10,38 @@ function Footer() {
           <h2>AMUAY<span> Wildlife Park </span></h2>
         </div>
         <div>
-          <a href="/"><i class="fa-brands fa-instagram"></i></a>
-          <a href="/"><i class="fa-brands fa-facebook-square"></i></a>
-          <a href="/"><i class="fa-brands fa-twitter"></i></a>
-          <a href="/"><i class="fa-brands fa-tiktok"></i></a>
-          <a href="/"><i class="fa-brands fa-youtube"></i></a>
-          <a href="/"><i class="fa-brands fa-pinterest"></i></a>
+          <Link to="/"><i class="fa-brands fa-instagram"></i></Link>
+          <Link to="/"><i class="fa-brands fa-facebook-square"></i></Link>
+          <Link to="/"><i class="fa-brands fa-twitter"></i></Link>
+          <Link to="/"><i class="fa-brands fa-tiktok"></i></Link>
+          <Link to="/"><i class="fa-brands fa-youtube"></i></Link>
+          <Link to="/"><i class="fa-brands fa-pinterest"></i></Link>
         </div>
       </div>
       <div className="bottom">
         <div>
           <h4>About</h4>
-          <a href="/">History</a>
-          <a href="/">Mission</a>
-          <a href="/">Service</a>
+          <Link to="/">History</Link>
+          <Link to="/">Mission</Link>
+          <Link to="/">Service</Link>
         </div>
         <div>
           <h4>News</h4>
-          <a href="/">Journal</a>
-          <a href="/">Video</a>
-          <a href="/">Blog</a>
+          <Link to="/">Journal</Link>
+          <Link to="/">Video</Link>
+          <Link to="/">Blog</Link>
         </div>
         <div>
           <h4>Support</h4>
-          <a href="/">Contact</a>
-          <a href="/">Privacy</a>
-          <a href="/">Terms</a>
+          <Link to="/">Contact</Link>
+          <Link to="/">Privacy</Link>
+          <Link to="/">Terms</Link>
         </div>
         <div>
           <h4>Get Involved</h4>
-          <a href="/">Job</a>
-          <a href="/">Volunteer</a>
-          <a href="/">Sponsorship</a>
+          <Link to="/">Job</Link>
+          <Link to="/">Volunteer</Link>
+          <Link to="/">Sponsorship</Link>
         </div>
       </div>
     </div>

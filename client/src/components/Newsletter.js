@@ -36,7 +36,7 @@ function Newsletter() {
       <div className="eyebrow">Sign up for wildlife news, zoo activities and more</div>
       <form onSubmit={handleSubmit} >
         <input onChange={handleChange} type="text" id="email" value={email} name="email" placeholder="Email Address" />
-        <input type="submit" class="subscribe" value="SUBMIT" />
+        <input type="submit" className="subscribe" value="SUBMIT" />
       </form>
     </div>
   )

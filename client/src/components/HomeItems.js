@@ -2,21 +2,21 @@ const homeItems = [
   {
     id: 1,
     className: "homeSection",
-    middleImg: "./images/owl.jpg",
+    middleImg: "./images/opentimes.jpeg",
     title: "We Are Opening",
     url: "/information"
   },
   {
     id: 2,
     className: "homeSection",
-    middleImg: "./images/map in homepage.jpg",
+    middleImg: "./images/direction.jpeg",
     title: "Get Directions",
     url: "/information"
   },
   {
     id: 3,
     className: "homeSection",
-    middleImg: "./images/deer.jpg",
+    middleImg: "./images/attractions.jpeg",
     title: "Attractions",
     url: "/planyourvisit"
   }

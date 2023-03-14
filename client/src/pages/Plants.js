@@ -7,6 +7,12 @@ import Card from '../components/WildlifeCard';
 import '../components/WildlifeCard.css';
 
 function Plants() {
+
+  /* In order to jump on the top instantly when opening this page */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedConservationStatus, setSelectedConservationStatus] = useState("");
   const [filteredResults, setFilteredResults] = useState([]);

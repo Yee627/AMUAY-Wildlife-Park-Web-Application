@@ -1,7 +1,7 @@
 .sectionContainer {
   margin-top: 2rem;
   text-align: center;
-  padding: 4rem 4rem 0 4rem;
+  padding: 3rem 4rem 3rem 4rem;
 }
 
 .homeSection img {
@@ -32,22 +32,20 @@
   color: white;
 }
 
-.middle-link:hover {
+.homeSection .newlink:hover {
   background-color: darkGreen;
 }
 
-@media screen and (min-width: 600px) {
-  .sectionContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2rem;
-  }
+.visitContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5rem;
+}
 
-  .visitContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5rem;
-  }
+.sectionContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3rem;
 }
 
 @media screen and (max-width: 600px) {

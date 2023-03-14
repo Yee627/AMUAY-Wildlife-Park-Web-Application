@@ -79,7 +79,7 @@
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
   .mapInfo, .timeInfo {
     display: flex;
     flex-wrap: wrap;
