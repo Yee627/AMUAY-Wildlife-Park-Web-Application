@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:960px) {
   .newsletter {
     width: 100%;
   }
@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (min-width:481px) and (max-width:1024px) {
+@media screen and (min-width:961px) and (max-width:1024px) {
   #email {
     width: 50%;
   }
