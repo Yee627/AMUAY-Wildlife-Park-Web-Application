@@ -22,7 +22,7 @@
   padding-left: 1rem;
 }
 
-.parkMap img {
+.parkMap img, .locationMap iframe {
   width: 650px;
   height: 450px;
 }
@@ -79,7 +79,7 @@
 }
 
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:480px) {
   .mapInfo, .timeInfo {
     display: flex;
     flex-wrap: wrap;
@@ -123,14 +123,14 @@
   }
 }
 
-@media screen and (min-width: 961px) and (max-width:1366px) {
+@media screen and (min-width: 1025px) and (max-width:1366px) {
   .locationMap iframe {
-    width: 450px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
   }
 
   .parkMap img {
-    width: 450px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
   }
 }

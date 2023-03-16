@@ -43,7 +43,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:480px) {
   .category {
     padding: 2rem;
   }
@@ -68,13 +68,10 @@
   }
 }
 
-@media screen and (min-width: 961px) and (max-width:1366px) {
-  .flexContainer {
-    justify-content: space-between;
-  }
+@media screen and (min-width: 1025px) and (max-width:1366px) {
 
   .plant, .animal {
-    width: 410px;
-    height: 280px;
+    width: 500px;
+    height: 380px;
   }
 }
