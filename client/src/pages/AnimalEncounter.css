@@ -43,7 +43,7 @@
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:960px) {
   .encounterContainer {
     display: block;
   }
@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width:960px) {
+@media screen and (min-width: 961px) and (max-width:1366px) {
   .encounter img {
     width: 260px;
     height: 220px;
