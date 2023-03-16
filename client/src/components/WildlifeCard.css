@@ -70,7 +70,7 @@
   background-color: var(--lightGreen);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   .wildlifeCards {
     display: flex;
     flex-direction: column;

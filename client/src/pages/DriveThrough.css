@@ -35,7 +35,7 @@
   font-family: sans-serif;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   .safari {
     display: block;
     padding: 5% 5%;
