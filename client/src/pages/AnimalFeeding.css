@@ -59,3 +59,10 @@
     max-width: 100%;
   }
 }
+
+@media screen and (max-width:1024px) {
+  .feeding img {
+    width: 260px;
+    height: 220px;
+  }
+}

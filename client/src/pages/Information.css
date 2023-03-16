@@ -122,3 +122,15 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width:1024px) {
+  .locationMap iframe {
+    width: 450px;
+    height: 300px;
+  }
+
+  .parkMap img {
+    width: 450px;
+    height: 300px;
+  }
+}

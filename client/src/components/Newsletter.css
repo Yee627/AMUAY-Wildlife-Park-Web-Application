@@ -63,7 +63,12 @@
 
   .subscribe {
     margin-left: -60px;
-    font-size: 14px;
     padding: 0 10px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .subscribe {
+    margin-left: -100px;
   }
 }

@@ -55,5 +55,13 @@
 
   .encounter img {
     max-width: 100%;
+
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .encounter img {
+    width: 260px;
+    height: 220px;
   }
 }

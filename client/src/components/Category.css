@@ -4,7 +4,7 @@
 
 .flexContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 3rem;
 }
 
@@ -65,5 +65,16 @@
     top: 50%;
     left: 40%;
     transform: translate(-30%, -30%);
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .flexContainer {
+    justify-content: space-between;
+  }
+
+  .plant, .animal {
+    width: 410px;
+    height: 280px;
   }
 }
