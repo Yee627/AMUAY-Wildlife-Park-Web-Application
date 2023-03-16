@@ -24,7 +24,7 @@
 .description p {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  text-align: justify;
+
 }
 
 .description h5 {
@@ -39,6 +39,7 @@
   .safari {
     display: block;
     padding: 5% 5%;
+    width: 100%;
   }
 
   .description h2 {

@@ -52,5 +52,10 @@
 
   .feeding {
     margin-top: 2rem;
+    width: 100%;
+  }
+
+  .feeding img {
+    max-width: 100%;
   }
 }

@@ -43,7 +43,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
   .category {
     padding: 2rem;
   }
@@ -54,15 +54,16 @@
 
   .plant, .animal {
     margin-top: 2rem;
+    width: 100%;
   }
 
-  .plant img, .animal img {
-    width: 70%;
+  .plant, .animal img {
+    max-width: 100%;
   }
 
   .flexContainer h3 {
     top: 50%;
-    left: 30%;
+    left: 40%;
     transform: translate(-30%, -30%);
   }
 }

@@ -57,19 +57,21 @@
     display: flex;
     flex-direction: column;
     margin-top: 0;
+    padding: 2rem 2rem;
   }
 
   .visitSection {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .visitSection h3 {
     margin-top: -20%;
+    font-size: 30px;
   }
 
   .visitSection h4 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 }

@@ -52,4 +52,8 @@
   #email {
     width: 60%;
   }
+
+  .subscribe {
+    margin-left: -80px;
+  }
 }

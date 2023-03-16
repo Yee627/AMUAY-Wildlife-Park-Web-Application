@@ -79,6 +79,8 @@
   .searchWildlife {
     display: flex;
     flex-direction: column;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 
   .search {
@@ -95,6 +97,10 @@
   }
 
   #conservation-status {
+    width: 100%;
+  }
+
+  .card {
     width: 100%;
   }
 }

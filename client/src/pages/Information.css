@@ -83,6 +83,7 @@
   .mapInfo, .timeInfo {
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem 2rem 0;
   }
 
   .locationMap, .parkMap {
@@ -92,10 +93,11 @@
   .locationMap iframe {
     width: 400px;
     height: 300px;
+    max-width: 100%;
   }
 
   .parkMap img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .parkMap {
@@ -109,6 +111,10 @@
   .rightInfo {
     padding-top: 3rem;
     width: 100%;
+  }
+
+  .query {
+    padding: 2rem, 2rem;
   }
 
   .queryForm {

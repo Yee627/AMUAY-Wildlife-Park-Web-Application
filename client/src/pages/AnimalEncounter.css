@@ -50,5 +50,10 @@
 
   .encounter {
     margin-top: 2rem;
+    width: 100%;
+  }
+
+  .encounter img {
+    max-width: 100%;
   }
 }

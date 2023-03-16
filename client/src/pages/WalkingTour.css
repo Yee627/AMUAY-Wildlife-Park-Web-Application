@@ -50,6 +50,10 @@
 }
 
 @media screen and (max-width:600px) {
+  .walkContainer {
+    margin: 30px 30px 30px;
+  }
+
   .walkTour {
     display: block;
     padding: 5% 5%;
