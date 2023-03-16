@@ -123,7 +123,7 @@
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width: 481px) and (max-width:960px) {
   .locationMap iframe {
     width: 450px;
     height: 300px;

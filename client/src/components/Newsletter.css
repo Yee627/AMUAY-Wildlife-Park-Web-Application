@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width: 481px) and (max-width:960px) {
   .subscribe {
     margin-left: -100px;
   }
