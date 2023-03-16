@@ -13,7 +13,7 @@
   color: darkGreen;
 }
 
-.eyebrow {
+.comehere {
   font-size: 40px;
   font-weight: 600;
   color: #524F4E;
@@ -49,11 +49,21 @@
 }
 
 @media screen and (max-width:600px) {
+  .newsletter {
+    width: 100%;
+  }
+
+  .comehere {
+    font-size: 30px;
+  }
+
   #email {
-    width: 60%;
+    width: 70%;
   }
 
   .subscribe {
-    margin-left: -80px;
+    margin-left: -60px;
+    font-size: 14px;
+    padding: 0 10px;
   }
 }

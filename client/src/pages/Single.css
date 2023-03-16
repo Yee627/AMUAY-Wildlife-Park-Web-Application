@@ -69,7 +69,17 @@
     padding-bottom: 3rem;
   }
 
+  .topSingle .intro {
+    padding: 2rem 3rem 0 3rem;
+  }
+
   .topSingle img {
     width: 100%;
   }
+
+  .middleSingle {
+    padding: 3rem 3rem 3rem;
+  }
+
+
 }
